@@ -1,0 +1,114 @@
+/* ---- REGLAS GENERALES ---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---- ESTILO DEL CUERPO ---- */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c568f;
+}
+
+/* ---- ESTILO DE LA CALCULADORA ---- */
+.container {
+    background: #222;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    border: 2px solid #000000;
+}
+
+/* ---- ESTILO DE LOS INPUTS ---- */
+.input-field {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #EEEEEE;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #222;
+}
+
+.input-field:focus {
+    outline: none;
+    transform: scale(1.05);
+}
+
+/* ---- CONTENEDOR DE BOTONES ---- */
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    width: 100%;
+}
+
+/* ---- ESTILO DE LOS BOTONES ---- */
+.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+/* ---- COLORES DE LOS BOTONES ---- */
+#sumar { background: #047961; }
+#restar { background: #C0392B; }
+#multiplicar { background: #F39C12; }
+#dividir { background: #8E44AD; }
+
+/* ---- EFECTOS DE HOVER ---- */
+.btn:hover {
+    filter: brightness(1.2);
+    transform: scale(1.1);
+}
+
+/* ---- EFECTOS DE PRESIONADO ---- */
+.btn:active {
+    transform: scale(1);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+/* ---- ESTILO DEL BOTÓN "AC" ---- */
+#borrar {
+    background: #D35400; /* Color naranja */
+    grid-column: span 2; /* Ocupará dos columnas */
+}
+
+#borrar:hover {
+    background: #E67E22;
+}
+
+
+/* ---- RESPONSIVE PARA MÓVILES ---- */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .buttons-container {
+        grid-template-columns: 1fr;
+    }
+
+    .btn {
+        padding: 12px;
+        font-size: 15px;
+    }
+}

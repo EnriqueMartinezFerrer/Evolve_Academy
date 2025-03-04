@@ -1,0 +1,13 @@
+Usando el contenido del portfolio que hemos creado con HTML y CSS, queremos: 
+
+Pasar todo el contenido del portfolio a un repositorio de forma escalada de tal manera que existan varios commits en nuestra rama principal
+
+La rama principal se debe llamar main
+
+Debemos crear una segunda rama donde añadiremos otra funcionalidad (como un formulario) y esta será mergeada con la rama principal posteriormente. 
+
+Queremos que la conexión del repositorio sea a través del protocolo SSH 
+
+Los commits deben ser descriptivos 
+
+Debemos replicar un conflicto, resolverlo y commitear la resolución
