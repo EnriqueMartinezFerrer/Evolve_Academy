@@ -1,0 +1,181 @@
+.edresumen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #e2eaff;
+    margin-top: auto;
+    width: 100%;
+}
+.info-resumen{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px; 
+    max-width: 1000px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 50px auto;
+    margin-top: 90px;
+}
+/*Sección de Andel*/
+.andel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; 
+    background-color: #a4b9ee;
+    margin: auto;
+    /*position: relative;*/
+}
+.info-andel{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px; 
+    max-width: 1000px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 10px auto;
+}
+.andel_img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    position: static;
+    top: auto;
+    left: auto;
+}
+/*Sección de Retamar*/
+.retamar{
+    color: #dd9e00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px; 
+    background-color: #f1cb68;
+    margin: auto;
+    position: relative;
+}
+.info-reta{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px; 
+    max-width: 1000px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 10px auto;
+}
+.reta_img{
+    width: 150px;
+    height: auto;
+    position: static;
+    margin: 0 auto;
+}
+/*boton de Retamar*/
+.btn-reta {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #dd9e00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-reta:hover {
+    background-color: #f0bf45;
+}
+/*Sección MOA*/
+.moa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px; 
+    background-color: #19518c;
+    margin: auto;
+    position: relative;
+}
+.info-moa{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px; 
+    max-width: 1000px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 50px auto;
+}
+.moa_img{
+    width: 150px;
+    height: auto;
+    position: static;
+    top: 20px;
+    left: 70px;
+}
+/*Sección de Deusto*/
+.deusto{
+    color: #f82323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px; 
+    background-color: #e99292;
+    margin: auto;
+    position: relative;
+}
+.info-deusto{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px; 
+    max-width: 1000px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 10px auto;
+}
+.deusto_img{
+    width: 400px;
+    height: auto;
+    position: static;
+    top: 20px;
+    left: 70px;
+}
+/*boton de deusto*/
+.btn-deusto {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #f82323;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-deusto:hover {
+    background-color: #a70000;
+}
+.aptitudes{
+    text-align: center;
+}
