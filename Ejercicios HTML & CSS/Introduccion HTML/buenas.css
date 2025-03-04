@@ -1,0 +1,47 @@
+/*Soy el estilo de Buenas.Html
+/* Archivo: buenas.css */
+
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales para el body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #007BFF; /* Un azul suave */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Título */
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Párrafos */
+  p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.5;
+    padding: 0 10px;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
