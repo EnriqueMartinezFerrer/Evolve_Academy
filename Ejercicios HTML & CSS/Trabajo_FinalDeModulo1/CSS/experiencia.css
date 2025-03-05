@@ -1,0 +1,151 @@
+.experiencia-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 50px;
+    background-color: #e2eaff;
+    margin: auto;
+    width: 100%;
+}
+/*Sección de CT3 Ingeniería*/
+.ct3{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    background-color: #fde198;
+    color: #dd9e00;
+    padding: 50px;
+    max-width: 100%;
+    margin: auto;
+}
+.ct3 img{
+    width: 250px;
+    height: auto;
+    display: block;
+    position: static;
+    margin-top: 40px;
+    padding: 15px;
+    animation: infoInNav 3s ease-in-out;
+}
+.info-ct3{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 1000px;
+    margin: auto;
+    animation: infoInNav 3s ease-in-out;
+}
+.ct3 ul{
+    text-align: left;
+    margin-top: 15px;
+}
+/*pequeña animacion*/
+@keyframes infoInNav{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*boton de CT3*/
+.btn-ct3 {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #dd9e00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+/*Sección de MG&3*/
+.mg{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    color: #000000;
+    background-color: #dddcdc;
+    padding: 50px;
+    max-width: 100%;
+    margin: auto;
+}
+.mg img{
+    width: 300px;
+    height: auto;
+    display: block;
+    position: static;
+    animation: infoInNav 5s ease-in-out;
+}
+.info-mg{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 1000px;
+    margin: 35px;
+    animation: infoInNav 7s ease-in-out;
+}
+.mg ul{
+    text-align: left;
+    margin-top: 15px;
+}
+/*Sección de Sección Ind. Bianchezza*/
+.italiano{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    background-color: #bcddb5;
+    color: #3FAE2A;
+    padding: 50px;
+    max-width: 100%;
+    margin: auto;
+}
+.italiano img{
+    width: 140px;
+    height: auto;
+    display: block;
+    position: static;
+    padding: 20px;
+    animation: infoInNav 5s ease-in-out;
+}
+.info-italiano{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 1000px;
+    margin: auto;
+    animation: infoInNav 7s ease-in-out;
+}
+.italiano ul{
+    text-align: left;
+    margin-top: 15px;
+}
+/*Media Query Móvil y Tablet*/
+@media(min-width: 768px){
+    .experiencia-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width: 1024px){
+    .experiencia-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

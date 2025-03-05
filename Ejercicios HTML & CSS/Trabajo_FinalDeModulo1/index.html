@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>CV Online</title>
+</head>
+<body>
+    <header>
+        <img src="./Imágenes/perfil2.jpeg" alt="Foto de perfil" class="perfil_img">
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="index.html">PERFIL</a></li>
+                <li class="header__nav-item"><a href="educacion.html">EDUCACIÓN</a></li>
+                <li class="header__nav-item"><a href="experiencia.html">EXPERIENCIA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="perfil">
+        <div class="perfil-contenido">
+            <img src="./Imágenes/yo.jpg" alt="Foto de perfil" class="profile__img">
+            <div class="info-perfil">          
+                <h1>Enrique Martínez</h1>
+                <p>Desarrollador Full Stack | Ciberseguridad</p>
+                <p>Especializado en C#, JavaScript, PHP y seguridad informática.</p>   
+                <div class="contact__info">
+                    <p><strong>Nombre:</strong> Enrique Martínez Ferrer</p>
+                    <p>📧 Kikemf2003@gmail.com</p>
+                    <p>📞 +34 672 761 299</p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/enrique-mart%C3%ADnez-ferrer-70993a273/" target="_blank">Perfil de LinkedIn</a></p>
+                    <p><strong>Github:</strong><a href="https://github.com/EnriqueMartinezFerrer" target="_blank">Mis Proyectos</a> </p>
+                </div>  
+            </div>
+        </div>                
+    </section>   
+    <section class="resumen">
+        <h2>Sobre mí</h2>
+        <p>
+            Estudié en el ciclo formativo de Grado superior
+            de DAM en Retamar, también tengo el título de
+            bachillerato, y el examen del First , además de
+            un curso de MOA especializado en Data
+            Analytics y trabajé en el sector de lácteos.
+            Tengo conocimientos medios altos en lenguajes
+            de programación como C#, JavaScript, PHP y
+            Java.
+            Por último, trabajé en un proyecto de media
+            duración en el que utilicé diversas herramientas
+            y lenguajes como .NET o JavaScript… También
+            utilicé la herramienta SQL Server EXPRESS para
+            crear y manejar las bases de datos del
+            proyecto. 
+           En el año 2019 asistí tres semansas al
+            campamento de orientación militar Tercios de
+            Lezo.
+            Actualmente busco trabajo en desarrollo y
+            ciberseguridad. He finalizado un Curso Superior
+            de Ciberseguridad y preparándome para el
+            Cambridge Advanced Certificate in English
+            (CAE)
+        </p>
+        <a href="./PDF/CV-Enrique Martínez.pdf" download class="btn-descarga">Descargar CV</a>
+    </section>
+    <section class="contacto">
+        <div class="contact-wrapper">
+            <form action="#" method="POST" class="contact__form">
+                <div class="contact__input-group">
+                    <h2 class="contact__title">CONTÁCTAME</h2> 
+                    <label for="name">Nombre y Apellidos:</label>
+                    <input type="text" id="name" name="name" placeholder="Pon tu Nombre Completo" required>
+                </div>
+    
+                <div class="contact__input-group">
+                    <label for="email">Gmail:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+                </div>
+    
+                <div class="contact__input-group">
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+34 600 123 456" pattern="[+]{0,1}[0-9]{9,14}" required>
+                </div>
+    
+                <div class="contact__input-group">
+                    <label for="linkedin">LinkedIn Profile:</label>
+                    <input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/your-profile">
+                </div>
+    
+                <div class="contact__input-group">
+                    <label for="message">Mensage:</label>
+                    <textarea id="message" name="Mensaje" rows="4" placeholder="Escribe tu mensaje..." ></textarea>
+                </div>
+                <div class="contact__input-group">
+                    <p><b>¿Por qué vía prefieres que te contacte?</b></p>
+                    <label>
+                        <input type="checkbox" name="contact_method" value="whatsapp"> WhatsApp
+                    </label>
+                    <label>
+                        <input type="checkbox" name="contact_method" value="gmail"> Gmail
+                    </label>
+                    <label>
+                        <input type="checkbox" name="contact_method" value="call"> Llamada
+                    </label>
+                </div>
+                <button type="submit" class="contact__submit-btn">Enviar</button>
+            </form>
+        </div>
+    </section>    
+</body>
+</html>
